@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="App">
       <form name="contact" data-netlify="true" method="post" onSubmit="submit">
-        <input type="hidden" name="form-name" value="contact" />
+        <input type="hidden" name="contact" value="contact" />
         <p>
           <label>
             Your Name: <input type="text" name="name" />
