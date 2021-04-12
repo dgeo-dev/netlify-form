@@ -3,7 +3,7 @@ import "./App.css"
 function App() {
   return (
     <div className="App">
-      <form name="contact" data-netlify="true" method="post" onSubmit="submit">
+      <form name="contact" netlify method="post" onSubmit="submit">
         <input type="hidden" name="contact" value="contact" />
         <p>
           <label>
