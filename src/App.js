@@ -14,6 +14,7 @@ function App() {
           <Route path="/">
             <form
               name="contact"
+              action="/pages/contactSuccess"
               data-netlify="true"
               method="post"
               onSubmit="submit"
