@@ -7,23 +7,18 @@ function App() {
         <input type="hidden" name="form-name" value="contact" />
         <p>
           <label>
-            Votre Prénom: <input type="text" name="first-name" />
+            Nom <input type="text" name="name" />
           </label>
         </p>
         <p>
           <label>
-            Votre Nom: <input type="text" name="last-name" />
-          </label>
-        </p>
-        <p>
-          <label>
-            Votre Email: <input type="email" name="email" />
+            Votre Mail: <input type="email" name="email" />
           </label>
         </p>
 
         <p>
           <label>
-            Votre message: <textarea name="message"></textarea>
+            Message: <textarea name="message"></textarea>
           </label>
         </p>
         <p>
