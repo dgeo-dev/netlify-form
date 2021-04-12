@@ -16,7 +16,6 @@ function App() {
               name="contact"
               action="/pages/contactSuccess"
               data-netlify="true"
-              method="post"
               onSubmit="submit"
             >
               <input type="hidden" name="form-name" value="contact" />
